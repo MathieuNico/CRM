@@ -1,0 +1,47 @@
+.navbar{
+    display: block;
+    background-color: rgb(127, 125, 125);
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto;
+    list-style-type: none;
+    padding: 20px;
+
+}
+
+.sousnavbar{
+    list-style-type: none;
+}
+
+.vrainavbar{
+    list-style-type: none;
+}
+
+.buttonnav{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+.navitem{
+    border: solid;
+    border-radius: 10px;
+    border-color: rgb(127, 125, 125);
+}
+
+.vrainavbar :hover{
+    background-color:#5932EA;
+    width: 100%;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a :hover{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
