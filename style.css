@@ -5,7 +5,7 @@
     overflow: auto;
     list-style-type: none;
     padding: 20px;
-
+    
 }
 
 .sousnavbar{
@@ -23,6 +23,7 @@
     height: 100%;
     width: 100%;
 }
+
 .navitem{
     border: solid;
     border-radius: 10px;
@@ -32,6 +33,7 @@
 .vrainavbar :hover{
     background-color:#5932EA;
     width: 100%;
+    border-radius: 20px;
 }
 
 a{
